@@ -6,8 +6,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/qingcloudhx/core v1.0.3 h1:OQ7ygpVfNV0znn9mEzQpXiiCsdL1eDXin1KKTehxeYk=
 github.com/qingcloudhx/core v1.0.3/go.mod h1:9KromA2Qu+bJOLVqqlaCXT5Q5xpDVkDHV4hBdRNYEqM=
-github.com/qingcloudhx/stream v0.2.1 h1:UABWSQzefdx2wuD9D+nFhWPftIBhELb7l/OPFtdUo9E=
-github.com/qingcloudhx/stream v0.2.1/go.mod h1:XJKZXSqVgxemBu6yExojZTt2p+40dDoYuJY/9D+SIl8=
+github.com/qingcloudhx/stream v0.2.2 h1:z4mSpXyYX19KLlebOiK6UKK3VSI2E7y1BX9ahg9TSZQ=
+github.com/qingcloudhx/stream v0.2.2/go.mod h1:XJKZXSqVgxemBu6yExojZTt2p+40dDoYuJY/9D+SIl8=
 github.com/stretchr/objx v0.1.0 h1:4G4v2dO3VZwixGIRoQ5Lfboy6nUhCyYzaqnIAPPhYs4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.3.0 h1:TivCn/peBQ7UY8ooIcPgZFpTNSz0Q2U6UrFlUfqbe0Q=
