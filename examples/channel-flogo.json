@@ -6,8 +6,8 @@
   "imports" : [
     "github.com/project-flogo/contrib/trigger/rest",
     "github.com/project-flogo/contrib/trigger/channel",
-    "github.com/project-flogo/stream",
-    "github.com/project-flogo/stream/activity/filter",
+    "github.com/qingcloudhx/stream",
+    "github.com/qingcloudhx/stream/activity/filter",
     "github.com/project-flogo/contrib/activity/log"
   ],
   "channels": [

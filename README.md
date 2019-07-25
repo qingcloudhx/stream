@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://travis-ci.org/project-flogo/stream.svg?branch=master"/>
+  <img src="https://travis-ci.org/qingcloudhx/stream.svg?branch=master"/>
   <img src="https://img.shields.io/badge/dependencies-up%20to%20date-green.svg"/>
   <img src="https://img.shields.io/badge/license-BSD%20style-blue.svg"/>
   <a href="https://gitter.im/project-flogo/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link"><img src="https://badges.gitter.im/Join%20Chat.svg"/></a>
@@ -38,12 +38,12 @@ We’ve made building powerful streaming pipelines as easy as possible. Develop 
 - A simple, clean JSON-based DSL
 - Golang API
 
-See the sample below of an aggregation pipeline (for brevity, the triggers and metadata of the resource has been omitted). Also don’t forget to check out the [examples](https://github.com/project-flogo/stream/tree/master/examples) in the repo.
+See the sample below of an aggregation pipeline (for brevity, the triggers and metadata of the resource has been omitted). Also don’t forget to check out the [examples](https://github.com/qingcloudhx/stream/tree/master/examples) in the repo.
 
 ```json
   "stages": [
     {
-      "ref": "github.com/project-flogo/stream/activity/aggregate",
+      "ref": "github.com/qingcloudhx/stream/activity/aggregate",
       "settings": {
         "function": "sum",
         "windowType": "timeTumbling",
@@ -64,9 +64,9 @@ See the sample below of an aggregation pipeline (for brevity, the triggers and m
 
 ## Try out the example
 
-Firstly you should install the install the [Flogo CLI](https://github.com/project-flogo/core).
+Firstly you should install the install the [Flogo CLI](https://github.com/qingcloudhx/core).
  
-Next you should download our aggregation example [agg-flogo.json](https://github.com/project-flogo/stream/blob/master/examples/agg-flogo.json).
+Next you should download our aggregation example [agg-flogo.json](https://github.com/qingcloudhx/stream/blob/master/examples/agg-flogo.json).
 
 We'll create a our application using the example file, we'll call it myApp
 

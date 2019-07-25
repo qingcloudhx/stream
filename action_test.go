@@ -4,17 +4,17 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/app/resource"
-	"github.com/project-flogo/core/engine/channels"
-	"github.com/project-flogo/core/support/test"
-	"github.com/project-flogo/stream/pipeline"
+	"github.com/qingcloudhx/core/action"
+	"github.com/qingcloudhx/core/app/resource"
+	"github.com/qingcloudhx/core/engine/channels"
+	"github.com/qingcloudhx/core/support/test"
+	"github.com/qingcloudhx/stream/pipeline"
 	"github.com/stretchr/testify/assert"
 )
 
 const testConfig string = `{
   "id": "flogo-stream",
-  "ref": "github.com/project-flogo/stream",
+  "ref": "github.com/qingcloudhx/stream",
   "settings": {
     "pipelineURI": "res://pipeline:test",
     "outputChannel": "testChan"

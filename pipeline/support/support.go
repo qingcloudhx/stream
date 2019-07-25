@@ -3,7 +3,7 @@ package support
 import (
 	"time"
 
-	"github.com/project-flogo/core/activity"
+	"github.com/qingcloudhx/core/activity"
 )
 
 type TimerCallback func(ctx activity.Context) (resume bool)

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/data"
 )
 
 type StateManager interface {

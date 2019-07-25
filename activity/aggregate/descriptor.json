@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "title": "Aggregate",
   "description": "Simple Aggregate Activity",
-  "homepage": "https://github.com/project-flogo/stream/tree/master/activity/aggregate",
+  "homepage": "https://github.com/qingcloudhx/stream/tree/master/activity/aggregate",
   "settings": [
     {
       "name": "function",

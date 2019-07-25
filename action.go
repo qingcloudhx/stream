@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/app/resource"
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/data/mapper"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/engine/channels"
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/stream/pipeline"
+	"github.com/qingcloudhx/core/action"
+	"github.com/qingcloudhx/core/app/resource"
+	"github.com/qingcloudhx/core/data/coerce"
+	"github.com/qingcloudhx/core/data/mapper"
+	"github.com/qingcloudhx/core/data/metadata"
+	"github.com/qingcloudhx/core/engine/channels"
+	"github.com/qingcloudhx/core/support/log"
+	"github.com/qingcloudhx/stream/pipeline"
 )
 
 func init() {

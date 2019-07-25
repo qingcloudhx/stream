@@ -10,7 +10,7 @@ This activity allows you to filter out data in a streaming pipeline, can also be
 ## Installation
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/stream/activity/filter
+flogo install github.com/qingcloudhx/stream/activity/filter
 ```
 
 ## Metadata

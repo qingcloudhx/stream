@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/stream/activity/aggregate/window"
-	"github.com/project-flogo/stream/pipeline/support"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/data/metadata"
+	"github.com/qingcloudhx/stream/activity/aggregate/window"
+	"github.com/qingcloudhx/stream/pipeline/support"
 )
 
 const (

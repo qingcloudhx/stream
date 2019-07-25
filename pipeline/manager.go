@@ -11,10 +11,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/project-flogo/core/data/mapper"
-	"github.com/project-flogo/core/data/resolve"
-	"github.com/project-flogo/core/support"
-	"github.com/project-flogo/core/support/log"
+	"github.com/qingcloudhx/core/data/mapper"
+	"github.com/qingcloudhx/core/data/resolve"
+	"github.com/qingcloudhx/core/support"
+	"github.com/qingcloudhx/core/support/log"
 )
 
 const (

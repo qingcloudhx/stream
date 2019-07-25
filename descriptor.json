@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "title": "Flogo Stream",
   "description": "Simple Stream Action",
-  "homepage": "https://github.com/project-flogo/stream/tree/master",
+  "homepage": "https://github.com/qingcloudhx/stream/tree/master",
   "async": true,
   "settings": [
     {

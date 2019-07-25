@@ -5,11 +5,11 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/stream/pipeline/support"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/data"
+	"github.com/qingcloudhx/core/data/metadata"
+	"github.com/qingcloudhx/core/support/log"
+	"github.com/qingcloudhx/stream/pipeline/support"
 )
 
 type Status int

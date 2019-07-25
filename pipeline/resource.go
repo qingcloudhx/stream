@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/project-flogo/core/app/resource"
-	"github.com/project-flogo/core/data/mapper"
-	"github.com/project-flogo/core/data/resolve"
+	"github.com/qingcloudhx/core/app/resource"
+	"github.com/qingcloudhx/core/data/mapper"
+	"github.com/qingcloudhx/core/data/resolve"
 )
 
 const (

@@ -6,10 +6,10 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/engine/channels"
-	"github.com/project-flogo/core/support/log"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/data/coerce"
+	"github.com/qingcloudhx/core/engine/channels"
+	"github.com/qingcloudhx/core/support/log"
 )
 
 type Instance struct {

@@ -1,10 +1,10 @@
 package support
 
 import (
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/expression"
-	"github.com/project-flogo/core/data/mapper"
-	"github.com/project-flogo/core/data/resolve"
+	"github.com/qingcloudhx/core/data"
+	"github.com/qingcloudhx/core/data/expression"
+	"github.com/qingcloudhx/core/data/mapper"
+	"github.com/qingcloudhx/core/data/resolve"
 )
 
 type ExprMapperFactory struct {

@@ -12,7 +12,7 @@ This activity allows you to aggregate data and calculate an average or sliding a
 This activity comes out of the box with the Flogo Web UI
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/stream/activity/aggregate
+flogo install github.com/qingcloudhx/stream/activity/aggregate
 ```
 
 ## Schema
@@ -98,7 +98,7 @@ The below example sums of all the values in a tumbling time window of 5 seconds:
 
 ```json
 {
-  "ref": "github.com/project-flogo/stream/activity/aggregate",
+  "ref": "github.com/qingcloudhx/stream/activity/aggregate",
   "settings": {
     "function": "sum",
     "windowType": "timeTumbling",

@@ -3,8 +3,8 @@ package aggregate
 import (
 	"testing"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/support/test"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/support/test"
 	"github.com/stretchr/testify/assert"
 )
 
