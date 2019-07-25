@@ -4,10 +4,10 @@
   "version": "0.0.1",
   "appModel": "1.1.0",
   "imports" : [
-    "github.com/project-flogo/contrib/trigger/rest",
+    "github.com/qingcloudhx/flow-plugin/trigger/rest",
     "github.com/qingcloudhx/stream",
     "github.com/qingcloudhx/stream/activity/aggregate",
-    "github.com/project-flogo/contrib/activity/log"
+    "github.com/qingcloudhx/flow-plugin/activity/log"
   ],
   "triggers": [
     {
