@@ -6,7 +6,6 @@
   "imports" : [
     "github.com/qingcloudhx/flow-plugin/trigger/rest",
     "github.com/qingcloudhx/stream",
-    "github.com/qingcloudhx/stream/activity/aggregate",
     "github.com/qingcloudhx/flow-plugin/activity/log"
   ],
   "triggers": [
@@ -62,20 +61,9 @@
         },
         "stages": [
           {
-            "ref": "#aggregate",
-            "settings": {
-              "function": "sum",
-              "windowType": "timeTumbling",
-              "windowSize": "5000"
-            },
-            "input": {
-              "value": "=$.input"
-            }
-          },
-          {
             "ref": "#log",
             "input": {
-              "message": "=$.result"
+              "message": "=$.input"
             }
           }
         ]

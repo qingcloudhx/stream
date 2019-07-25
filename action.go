@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"strings"
+	"time"
 
 	"github.com/qingcloudhx/core/action"
 	"github.com/qingcloudhx/core/app/resource"
@@ -151,8 +152,8 @@ func (s *StreamAction) Run(context context.Context, inputs map[string]interface{
 		}
 	}
 
-	logger.Debugf("Running pipeline")
-
+	logger.Infof("Running pipeline Start inputs:%+v", inputs)
+	start := time.Now()
 	go func() {
 
 		defer handler.Done()
@@ -167,6 +168,7 @@ func (s *StreamAction) Run(context context.Context, inputs map[string]interface{
 		if s.outChannel != nil && status == pipeline.ExecStatusCompleted {
 			s.outChannel.Publish(retData)
 		}
+		logger.Infof("Finished pipeline status:%d,res:%+v,lost:%d", status, retData, time.Since(start)/1e6)
 	}()
 
 	return nil
